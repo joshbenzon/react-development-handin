@@ -34,7 +34,7 @@ html {
     display: flex;
     justify-content: center;
 
-    background-color: #fafff6;
+    background-color: #f3f3ff;
     color: #101415;
 }
 
@@ -78,6 +78,7 @@ h1,
 h2,
 h3,
 h4,
+h5,
 p,
 li {
     padding: 0rem;
@@ -100,6 +101,14 @@ h4 {
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
+    font-style: normal;
+}
+
+h5 {
+    /* dm-sans-thin */
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
     font-style: normal;
 }
 
@@ -126,6 +135,14 @@ h3 {
 
 h4 {
     font-size: 1.25rem;
+
+    margin-top: 2.5rem;
+    margin-bottom: 0.25rem;
+}
+
+h5 {
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
 }
 
 p,
@@ -180,6 +197,10 @@ a {
     margin: 1.75rem;
 }
 
+.extra-text {
+    margin-top: 2.5rem;
+}
+
 /* ID STYLING */
 #title {
     text-align: center;
@@ -187,7 +208,7 @@ a {
 }
 
 #final-product {
-    width: 80%;
+    width: 65%;
 }
 
 #conclusion {
