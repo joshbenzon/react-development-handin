@@ -1,2 +1,3 @@
-# react-development-handin
-User Interface &amp; User Experience (CSCI 1300) Project #3b
+# Project #3b (React Development HandIn)
+
+User Interface &amp; User Experience (CSCI 1300)
