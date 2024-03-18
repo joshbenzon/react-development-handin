@@ -1,0 +1,271 @@
+/* Fonts */
+/* DM SERIF */
+.dm-serif text-regular {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dm-serif text-regular-italic {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* DM SANS */
+.dm-sans-extra-light,
+.dm-sans-thin,
+.dm-sans-light,
+.dm-sans-regular,
+.dm-sans-medium,
+.dm-sans-semibold,
+.dm-sans-bold,
+.dm-sans-extrabold,
+.dm-sans-black {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: var(--weight, 400);
+    font-style: normal;
+}
+
+/* All Styling */
+/* MAIN */
+html {
+    display: flex;
+    justify-content: center;
+
+    background-color: #fafff6;
+    color: #101415;
+}
+
+body {
+    padding: 0rem;
+    margin: 0rem;
+
+    width: 70%;
+}
+
+section {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+
+    justify-content: center;
+}
+
+/* COMPONENTS */
+img {
+    width: 100%;
+    border-radius: 0.5rem;
+
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+ul {
+    margin-bottom: 1.75rem;
+}
+
+/* TEXT */
+span {
+    /* dm-sans-medium */
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+    padding: 0rem;
+    margin: 0rem;
+
+    margin-bottom: 0.75rem;
+}
+
+h1,
+h2,
+h3 {
+    /* dm-serif text-regular */
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h4 {
+    /* dm-sans-medium */
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+p,
+li {
+    /* dm-sans-light */
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+p,
+li {
+    font-size: 1.125rem;
+}
+
+a {
+    color: #101415;
+}
+
+/* CLASS STYLING */
+.horizontal-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.outer-divider {
+    border: 1px solid #d8dce2;
+    width: 100%;
+
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.inner-divider {
+    border: 1px solid #d8dce2;
+    width: 85%;
+
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.vertical-divider {
+    border: none;
+    width: 25%;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+
+    margin: 1.75rem;
+}
+
+.caption {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.bullets {
+    margin: 1.75rem;
+}
+
+/* ID STYLING */
+#title {
+    text-align: center;
+    padding-top: 1.25rem;
+}
+
+#final-product {
+    width: 80%;
+}
+
+#conclusion {
+    padding-bottom: 1.75rem;
+}
+
+#mobile {
+    width: 50%;
+}
+
+/* Media Styling */
+/* TABLET */
+@media (max-width: 768px) {
+    body {
+        width: 90%;
+    }
+
+    img {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .outer-divider {
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .inner-divider {
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .image {
+        margin: 1.25rem;
+    }
+
+    #final-product {
+        width: 90%;
+    }
+
+    #mobile {
+        width: 70%;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 576px) {
+    body {
+        width: 85%;
+    }
+
+    img {
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .horizontal-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vertical-divider {
+        display: none;
+    }
+
+    .image {
+        margin: 1rem;
+    }
+
+    .bullets {
+        margin: 1.25rem;
+    }
+
+    #final-product {
+        width: 95%;
+    }
+
+    #mobile {
+        width: 80%;
+    }
+}
